@@ -1,0 +1,1 @@
+This repo for solutions from leetcode tasks.
