@@ -34,8 +34,8 @@ func main() {
 // Task #1
 // Given a roman numeral, convert it to an integer.
 // https://leetcode.com/problems/roman-to-integer/
-// Runtime: 19 ms, faster than 33.90% of Go online submissions for Roman to Integer.
-// Memory Usage: 2.9 MB, less than 84.26% of Go online submissions for Roman to Integer.
+// Runtime: 11 ms, faster than 74.44% of Go online submissions for Roman to Integer.
+// Memory Usage: 3.5 MB, less than 15.10% of Go online submissions for Roman to Integer.
 func romanToInt(romanNumber string) (int, error) {
 	validRomanNumber, err := validateRoman(romanNumber)
 	if err != nil {
@@ -50,11 +50,12 @@ func convertRomanToInt(romanNumber string) int {
 	var currentVal int
 	var nextVal int
 	lenChars := len(romanNumber)
+	romanArr := strings.Split(romanNumber, "")
 	for i := 0; i < lenChars; i++ {
-		currentVal = romanInt[string(romanNumber[i])] //получаем значение текущего символа
+		currentVal = romanInt[romanArr[i]]
 		j := i + 1
 		if j < lenChars { //если символ последний - не заходим на проверку
-			nextVal = romanInt[string(romanNumber[j])] //получаем следующий символ
+			nextVal = romanInt[romanArr[j]] //получаем следующий символ
 			if nextVal > currentVal {
 				result += nextVal - currentVal //если больше - высчитаваем исключение
 				i = j
