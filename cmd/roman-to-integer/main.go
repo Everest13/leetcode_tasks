@@ -24,15 +24,14 @@ func main() {
 	inputRoman := "MMCDXXXV"
 	result, err := romanToInt(inputRoman)
 	if err != nil {
-		fmt.Print(err)
+		fmt.Print(err.Error())
 		return
 	}
 
 	fmt.Println("Result is ", result)
 }
 
-// Task #1
-// Given a roman numeral, convert it to an integer.
+// Task #11 Given a roman numeral, convert it to an integer.
 // https://leetcode.com/problems/roman-to-integer/
 // Runtime: 11 ms, faster than 74.44% of Go online submissions for Roman to Integer.
 // Memory Usage: 3.5 MB, less than 15.10% of Go online submissions for Roman to Integer.
