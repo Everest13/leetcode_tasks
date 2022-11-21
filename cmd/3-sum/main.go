@@ -6,7 +6,7 @@ import (
 	"sort"
 )
 
-// Task #4 3Sum
+// Task #4 3Sum. (Medium)
 // https://leetcode.com/problems/3sum/
 // Runtime: 46 ms, faster than 80.73% of Go online submissions for 3Sum.
 // Memory Usage: 7.4 MB, less than 81.30% of Go online submissions for 3Sum.
@@ -108,9 +108,7 @@ func threeSum2(nums []int) [][]int {
 	var recursion func(nums, twoNums []int)
 	var possibleTriplet [3]int
 	var tripletMap = make(map[[3]int]struct{})
-
 	recursion = func(nums, secNums []int) {
-
 		for _, thirdNum := range secNums[1:] {
 			if nums[0]+secNums[0]+thirdNum == 0 {
 				possibleTriplet = [3]int{nums[0], secNums[0], thirdNum}
@@ -123,18 +121,15 @@ func threeSum2(nums []int) [][]int {
 		if len(nums) == 3 {
 			return
 		}
-
 		secNums = secNums[1:]
 		if len(secNums) == 1 {
 			nums = nums[1:]
 			secNums = nums[1:]
 		}
-
 		recursion(nums, secNums)
 	}
 
 	recursion(nums, nums[1:])
-
 	return convertTriplets(tripletMap)
 }
 
