@@ -64,24 +64,60 @@ func main() {
 }
 
 func mergeTwoLists(list1 *ListNode, list2 *ListNode) *ListNode {
-	var recursion func(current1 *ListNode, current2 *ListNode) *ListNode
-	recursion = func(current1 *ListNode, current2 *ListNode) *ListNode {
-		if current1 == nil {
-			return current2
-		}
+	//var recursion func(current1 *ListNode, current2 *ListNode) *ListNode
+	//recursion = func(current1 *ListNode, current2 *ListNode) *ListNode {
+	//	if current1 == nil {
+	//		return current2
+	//	}
+	//
+	//	if current2 == nil {
+	//		return current1
+	//	}
+	//
+	//	if current1.Val < current2.Val {
+	//		current1.Next = recursion(current2, current1.Next)
+	//		return current1
+	//	}
+	//
+	//	current2.Next = recursion(current1, current2.Next)
+	//	return current2
+	//}
+	//
+	//return recursion(list1, list2)
 
-		if current2 == nil {
-			return current1
-		}
+	var head, current *ListNode //head - is head!, current - last result node
 
-		if current1.Val < current2.Val {
-			current1.Next = recursion(current2, current1.Next)
-			return current1
-		}
-
-		current2.Next = recursion(current1, current2.Next)
-		return current2
+	if list1.Val < list2.Val {
+		head = list1
+		current = list1
+		list1 = list1.Next
+	} else {
+		head = list2
+		current = list2
+		list2 = list2.Next
 	}
 
-	return recursion(list1, list2)
+	for list1 != nil || list2 != nil {
+		if list1.Val < list2.Val {
+			current.Next = list1
+			current = list1
+			list1 = list1.Next
+		} else {
+			current.Next = list2
+			current = list2
+			list2 = list2.Next
+		}
+
+		if list1 == nil {
+			current.Next = list2
+			break
+		}
+
+		if list2 == nil {
+			current.Next = list1
+			break
+		}
+	}
+
+	return head
 }
