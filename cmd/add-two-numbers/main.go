@@ -10,7 +10,7 @@ type ListNode struct {
 }
 
 /*
-Task Add Two Numbers.
+Task Add Two Numbers. Medium level.
 https://leetcode.com/problems/add-two-numbers/description/
 Runtime - 3ms(beats 99%), memory: 4.5mb(beats 65%)
 */
