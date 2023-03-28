@@ -3,7 +3,7 @@ package main
 import "fmt"
 
 /*
-Longest Palindromic Substring
+Longest Palindromic Substring. Medium level.
 https://leetcode.com/problems/longest-palindromic-substring/
 
 Алгоритм взят отсюда https://www.geeksforgeeks.org/given-a-string-print-all-possible-palindromic-partition/
