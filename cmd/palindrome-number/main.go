@@ -7,7 +7,7 @@ import (
 )
 
 /*
-9. Palindrome Number
+9. Palindrome Number. Easy level.
 https://leetcode.com/problems/palindrome-number/description/
 */
 func main() {

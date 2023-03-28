@@ -6,7 +6,7 @@ import (
 )
 
 /*
-7. Reverse Integer
+7. Reverse Integer. Medium level.
 https://leetcode.com/problems/reverse-integer/submissions/915535680/
 Runtime - 0ms(beats 100%), memory: 2.1mb(beats 16.9%)
 */
