@@ -9,7 +9,7 @@ type TreeNode struct {
 }
 
 /**
-94. Binary Tree Inorder Traversal
+94. Binary Tree Inorder Traversal. Easy.
 https://leetcode.com/problems/binary-tree-inorder-traversal/description/
 Runtime 2ms, beats 64,32%; Memory 2mb, beats 99.8%.
  */
