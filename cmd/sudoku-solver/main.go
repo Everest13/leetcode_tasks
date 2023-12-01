@@ -1,7 +1,5 @@
 package main
 
-import "fmt"
-
 func main() {
 	//в каждой строке 1-9 без повторений
 	//в каждой колонке 1-9 без повторений
@@ -21,138 +19,195 @@ func main() {
 }
 
 type key struct {
-	line int
-	col int
+	x int
+	y int
 	boxN int
 }
 
-func solveSudoku(board [][]byte)  {
+func solveSudoku(board [][]byte) { // strconv.Atoi(string(val))
 
-	lineAbsentMap := map[int]map[byte]struct{}{} //пропуски по линии
-	columnAbsentMap := map[int]map[byte]struct{}{} //пропуски по колонне
-	boxAbsentMap := map[int]map[byte]struct{}{} //пропуски по боксу
-	absentVals := map[key][]byte{} //все пропуски
-	absentVals2 := map[*[][]byte][]byte{} //все пропуски
+	existLines := map[int]map[byte]struct{}{}
+	existCols := map[int]map[byte]struct{}{}
+	existBoxes := map[int]map[byte]struct{}{}
 
-	//попробовать copy с base
-	//todo попробовать реализацию через поинтеры
-	getAbsentVals := func(line, col int) {
-		lineMap, ok1 := lineAbsentMap[line]
-		colMap, ok2 := columnAbsentMap[col]
+	possibleVals := map[key]map[byte]struct{}{}
 
-		idX, idY := 0, 0
-		for i:=0; i<9; i++ {
-			baseLine := map[byte]struct{} {'1':{}, '2':{}, '3':{}, '4':{}, '5':{}, '6':{}, '7':{}, '8':{}, '9':{}}
-			baseColumn := map[byte]struct{} {'1':{}, '2':{}, '3':{}, '4':{}, '5':{}, '6':{}, '7':{}, '8':{}, '9':{}}
-			baseBox := map[byte]struct{} {'1':{}, '2':{}, '3':{}, '4':{}, '5':{}, '6':{}, '7':{}, '8':{}, '9':{}}
-
-			if board[line][i] != '.' {
-				delete(baseLine, board[line][i])
+	for i := 0; i < 9; i++ {
+		for j := i; j < 9; j++ {
+			if board[i][j] == '.' {
+				boxN1 := checkBoxN(i, j)
+				possibleVals[key{x:i, y:j, boxN: boxN1}] = map[byte]struct{}{'1': {}, '2': {}, '3': {}, '4': {}, '5': {}, '6': {}, '7': {}, '8': {}, '9': {}}
 			}
-
-			if board[i][col] != '.' {
-				delete(baseColumn, board[i][col])
+			if i == j {
+				continue
 			}
-
-			//box
-			for m := 0; m < 3; m++ {
-				for k := 0; k < 3; k++ {
-					if board[idX][idY] != '.' {
-						delete(baseBox, board[idX][idY])
-					} else {
-						absentVals[key{line: m, col: k, boxN: i}] = []byte{}
-					}
-					idY++
-				}
-				idY = idY - 3
-				idX++
+			if board[j][i] == '.' {
+				boxN2 := checkBoxN(j, i)
+				possibleVals[key{x:j, y:i, boxN: boxN2}] = map[byte]struct{}{'1': {}, '2': {}, '3': {}, '4': {}, '5': {}, '6': {}, '7': {}, '8': {}, '9': {}}
 			}
-			if idX >= 9 {
-				idX = 0
-				idY = idY + 3
-			}
-
-			lineAbsentMap[i] = baseLine
-			columnAbsentMap[i] = baseColumn
-			boxAbsentMap[i] = baseBox
 		}
 	}
 
-	//набьираем возможные значения
-
-	for i, line := range board {
-		for j, colm := range line {
-
-
-
-
-
+	cleanPossibleVals := func(i, j int, val byte) {
+		boxN1 := checkBoxN(i, j)
+		for k := range possibleVals {
+			if k.x == i || k.y == j || k.boxN == boxN1 {
+				delete(possibleVals[k], val)
+			}
+			if i == j {
+				continue
+			}
+			boxN1 = checkBoxN(j, i)
+			if k.x == j || k.y == i || k.boxN == boxN1 {
+				delete(possibleVals[k], val)
+			}
 		}
+	}
+
+	for k, vals := range possibleVals {
+		if _, ok := existLines[k.x]; ok {
+			delete(possibleVals[k], vals)
+		}
+
 	}
 
 
 
 
 
+	return
+}
 
 
-	// собрать возможные значения по строкам, колонкам, боксам
+func checkBoxN(i, j int) int {
+	switch {
+	case i<3 && j<3: //1
+		return 1
+	case i<6 && j<3: //2
+		return 2
+	case i<9 && j<3: //3
+		return 3
+	case i<3 && j<6: //4
+		return 4
+	case i<6 && j<6: //5
+		return 5
+	case i<9 && j<6: //6
+		return 6
+	case i<3 && j<9: //7
+		return 7
+	case i<6 && j<9: //8
+		return 8
+	default: // i<9 && j<9: //9
+		return 9
+	}
+}
 
-	for i:=0; i<9; i++ {
-		baseLine := map[byte]struct{} {'1':{}, '2':{}, '3':{}, '4':{}, '5':{}, '6':{}, '7':{}, '8':{}, '9':{}}
-		baseColumn := map[byte]struct{} {'1':{}, '2':{}, '3':{}, '4':{}, '5':{}, '6':{}, '7':{}, '8':{}, '9':{}}
-		baseBox := map[byte]struct{} {'1':{}, '2':{}, '3':{}, '4':{}, '5':{}, '6':{}, '7':{}, '8':{}, '9':{}}
+func solveSudoku2(board [][]byte) {
+	existLines := map[int]map[byte]struct{}{}
+	existCols := map[int]map[byte]struct{}{}
+	existBoxes := map[int]map[byte]struct{}{}
+	absentValBoxes := map[int]map[byte]struct{}{}
+	possibleCeilVals := map[key][]byte{}
 
-		for j:=0; j<9; j++ {
+	idX, idY := 0, 0
+	for i := 0; i < 9; i++ {
+		line := map[byte]struct{}{}
+		col := map[byte]struct{}{}
+
+		for j := 0; j < 9; j++ {
 			if board[i][j] != '.' {
-				delete(baseLine, board[i][j])
+				line[board[i][j]] = struct{}{}
 			}
 
 			if board[j][i] != '.' {
-				delete(baseColumn, board[j][i])
+				col[board[j][i]] = struct{}{}
 			}
 		}
+		existLines[i] = line
+		existCols[i] = col
 
-		//box
-		for m := 0; m < 3; m++ {
-			for k := 0; k < 3; k++ {
-				if board[idX][idY] != '.' {
-					delete(baseBox, board[idX][idY])
-				} else {
-					absentVals[key{line: m, col: k, boxN: i}] = []byte{}
-				}
+		existBox := map[byte]struct{}{} //сущ значения в боксе
+		// возможные значения для бокса
+		absentValBox := map[byte]struct{}{'1': {}, '2': {}, '3': {}, '4': {}, '5': {}, '6': {}, '7': {}, '8': {}, '9': {}}
+		m := idX + 3
+		n := idY + 3
+		for idX < m {
+			for idY < n {
+				val := board[idY][idX]
 				idY++
+				if val != '.' {
+					existBox[val] = struct{}{}
+					delete(absentValBox, val)
+					continue
+				}
+				//
+				possibleCeilVals[key{x:idX, y:idY, boxN: i}] = []byte{}
 			}
-			idY = idY - 3
 			idX++
-		}
-		if idX >= 9 {
-			idX = 0
-			idY = idY + 3
+			if idX == 9 {
+				idX = 0
+				break
+			}
+			idY -= 3
 		}
 
-		lineAbsentMap[i] = baseLine
-		columnAbsentMap[i] = baseColumn
-		boxAbsentMap[i] = baseBox
+		existBoxes[i] = existBox
+		absentValBoxes[i] = absentValBox
 	}
 
-	//absentVals := map[key][]byte{} //все пропуски
-	for len(absentVals) > 0 {
+	checkVal := func(k key, val byte) bool {
+		_, ok1 := existLines[k.x][val]
+		_, ok2 := existCols[k.y][val]
+		_, ok3 := existBoxes[k.boxN][val]
 
-		for k := range absentVals {
-			if len(absentVals[k]) == 1 {
-				board[k.line][k.col] = absentVals[k][0]
-				delete(absentVals, k)
+		if !ok1 && !ok2 && !ok3 {
+			return true
+		}
+
+		return false
+	}
+
+	addVal := func(k key, val byte)  {
+		existLines[k.x][val] = struct{}{}
+		existCols[k.y][val] = struct{}{}
+		existBoxes[k.boxN][val] = struct{}{}
+	}
+
+	track := []map[key]byte{} //добавленные значения
+	for k, vals := range possibleCeilVals {
+
+		if len(vals) == 0 { //найти значения если их нет
+			for val := range absentValBoxes[k.x] {
+				_, okLine := existLines[k.x][val]
+				_, okCol := existCols[k.y][val]
+				if !okLine && !okCol {
+					vals = append(vals, val)
+				}
+			}
+		}
+
+		for i, val := range vals {
+			if checkVal(k, val) {
+				vals = vals[i:] //удалить значения которые не подходят  todo? i
+				track = append(track, map[key]byte{k:val})
+				addVal(k, val)
+				if len(vals) == 0 {
+					delete(possibleCeilVals, k)
+				}
+
+				possibleCeilVals[k] = vals
 			}
 
 
-
-
-
 		}
+
+
+
+
+
 	}
 
 
 
-	fmt.Println(board)
+	return
 }
