@@ -1,7 +1,12 @@
 package main
 
-import "fmt"
 
+/*
+	37. Sudoku Solver
+	Hard
+	https://leetcode.com/problems/sudoku-solver/description/?envType=list&envId=r57h7kzc
+	Runtime 90 ms Beats 5.51%, Memory 8.1 MB Beats 5.51%
+ */
 func main() {
 	//в каждой строке 1-9 без повторений
 	//в каждой колонке 1-9 без повторений
@@ -21,138 +26,97 @@ func main() {
 }
 
 type key struct {
-	line int
-	col int
-	boxN int
+	x int
+	y int
 }
 
-func solveSudoku(board [][]byte)  {
+func solveSudoku(board [][]byte) {
+	track := []key{}
+	unapproprVals := map[key]map[byte]struct{}{}
 
-	lineAbsentMap := map[int]map[byte]struct{}{} //пропуски по линии
-	columnAbsentMap := map[int]map[byte]struct{}{} //пропуски по колонне
-	boxAbsentMap := map[int]map[byte]struct{}{} //пропуски по боксу
-	absentVals := map[key][]byte{} //все пропуски
-	absentVals2 := map[*[][]byte][]byte{} //все пропуски
+	addVal := func(k key, absentVals map[byte]struct{} ) {
+		for val := range absentVals {
+			track = append(track, k)
+			board[k.x][k.y] = val
+			break
+		}
+	}
 
-	//попробовать copy с base
-	//todo попробовать реализацию через поинтеры
-	getAbsentVals := func(line, col int) {
-		lineMap, ok1 := lineAbsentMap[line]
-		colMap, ok2 := columnAbsentMap[col]
+	rollBack := func(i, j int) (int, int) {
 
-		idX, idY := 0, 0
-		for i:=0; i<9; i++ {
-			baseLine := map[byte]struct{} {'1':{}, '2':{}, '3':{}, '4':{}, '5':{}, '6':{}, '7':{}, '8':{}, '9':{}}
-			baseColumn := map[byte]struct{} {'1':{}, '2':{}, '3':{}, '4':{}, '5':{}, '6':{}, '7':{}, '8':{}, '9':{}}
-			baseBox := map[byte]struct{} {'1':{}, '2':{}, '3':{}, '4':{}, '5':{}, '6':{}, '7':{}, '8':{}, '9':{}}
+		lenTrack := len(track) - 1
+		k := track[lenTrack]
+		track = track[:lenTrack]
 
-			if board[line][i] != '.' {
-				delete(baseLine, board[line][i])
+		delete(unapproprVals, key{x:i, y:j})
+
+		val := board[k.x][k.y]
+		board[k.x][k.y] = '.'
+		if _, ok := unapproprVals[k]; ok {
+			unapproprVals[k][val] = struct{}{}
+			return k.x, k.y
+		}
+
+		unapproprVals[k] = map[byte]struct{}{val: {}}
+
+		return k.x, k.y
+	}
+
+	findAbsentVals := func(k key) map[byte]struct{} {
+		base := map[byte]struct{}{'1': {}, '2': {}, '3': {}, '4': {}, '5': {}, '6': {}, '7': {}, '8': {}, '9': {}}
+		sI := k.x/3 * 3
+		sJ := k.y/3 * 3
+
+		m, n := sI, sJ
+		for i := 0; i < 9; i++ {
+			val1 := board[k.x][i]
+			if val1 != '.' {
+				delete(base, val1)
 			}
 
-			if board[i][col] != '.' {
-				delete(baseColumn, board[i][col])
+			val2 := board[i][k.y]
+			if val2 != '.' && val1 != val2 {
+				delete(base, val2)
 			}
 
-			//box
-			for m := 0; m < 3; m++ {
-				for k := 0; k < 3; k++ {
-					if board[idX][idY] != '.' {
-						delete(baseBox, board[idX][idY])
-					} else {
-						absentVals[key{line: m, col: k, boxN: i}] = []byte{}
-					}
-					idY++
+			//	box
+			val3 := board[m][n]
+			if val3 != '.' && val1 != val3 && val2 != val3 {
+				delete(base, val3)
+			}
+			n++
+			if n == (sJ+3) {
+				m++
+				n = sJ
+			}
+		}
+
+		for val := range unapproprVals[k] {
+			delete(base, val)
+		}
+
+		return base
+	}
+
+	//1
+	for i := 0; i < 9; {
+		for j := 0; j < 9; {
+			valL := board[i][j]
+			if valL == '.' {
+				k := key{x:i, y:j}
+
+				absentVals := findAbsentVals(k)
+				if len(absentVals) == 0 {
+					i,j = rollBack(i,j)
+					continue
 				}
-				idY = idY - 3
-				idX++
-			}
-			if idX >= 9 {
-				idX = 0
-				idY = idY + 3
-			}
 
-			lineAbsentMap[i] = baseLine
-			columnAbsentMap[i] = baseColumn
-			boxAbsentMap[i] = baseBox
+				addVal(k, absentVals)
+			}
+			j++
 		}
+		i++
 	}
 
-	//набьираем возможные значения
-
-	for i, line := range board {
-		for j, colm := range line {
-
-
-
-
-
-		}
-	}
-
-
-
-
-
-
-
-	// собрать возможные значения по строкам, колонкам, боксам
-
-	for i:=0; i<9; i++ {
-		baseLine := map[byte]struct{} {'1':{}, '2':{}, '3':{}, '4':{}, '5':{}, '6':{}, '7':{}, '8':{}, '9':{}}
-		baseColumn := map[byte]struct{} {'1':{}, '2':{}, '3':{}, '4':{}, '5':{}, '6':{}, '7':{}, '8':{}, '9':{}}
-		baseBox := map[byte]struct{} {'1':{}, '2':{}, '3':{}, '4':{}, '5':{}, '6':{}, '7':{}, '8':{}, '9':{}}
-
-		for j:=0; j<9; j++ {
-			if board[i][j] != '.' {
-				delete(baseLine, board[i][j])
-			}
-
-			if board[j][i] != '.' {
-				delete(baseColumn, board[j][i])
-			}
-		}
-
-		//box
-		for m := 0; m < 3; m++ {
-			for k := 0; k < 3; k++ {
-				if board[idX][idY] != '.' {
-					delete(baseBox, board[idX][idY])
-				} else {
-					absentVals[key{line: m, col: k, boxN: i}] = []byte{}
-				}
-				idY++
-			}
-			idY = idY - 3
-			idX++
-		}
-		if idX >= 9 {
-			idX = 0
-			idY = idY + 3
-		}
-
-		lineAbsentMap[i] = baseLine
-		columnAbsentMap[i] = baseColumn
-		boxAbsentMap[i] = baseBox
-	}
-
-	//absentVals := map[key][]byte{} //все пропуски
-	for len(absentVals) > 0 {
-
-		for k := range absentVals {
-			if len(absentVals[k]) == 1 {
-				board[k.line][k.col] = absentVals[k][0]
-				delete(absentVals, k)
-			}
-
-
-
-
-
-		}
-	}
-
-
-
-	fmt.Println(board)
+	return
 }
