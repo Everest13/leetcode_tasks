@@ -8,6 +8,12 @@ type TreeNode struct {
 	Right *TreeNode
 }
 
+/*
+	2385. Amount of Time for Binary Tree to Be Infected
+	Medium
+	https://leetcode.com/problems/amount-of-time-for-binary-tree-to-be-infected/description/?envType=daily-question&envId=2024-01-10
+	Runtime 271ms Beats 54.77%, Memory 43.44MB Beats 40.21%
+*/
 func main() {
 	headRightR := &TreeNode{
 		Val: 6,
@@ -104,6 +110,7 @@ func amountOfTime(root *TreeNode, start int) int {
 	}
 
 	rec(root,nil)
+
 	root = nil
 	time := 0
 	infectionTimeRec := func(nodes []*Node) {}
