@@ -1,0 +1,1 @@
+package min_l_str_after_del_similar_ends
