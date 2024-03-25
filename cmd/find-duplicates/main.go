@@ -13,7 +13,7 @@ func main() {
 	442. Find All Duplicates in an Array
 	https://leetcode.com/problems/find-all-duplicates-in-an-array/description/?envType=daily-question&envId=2024-03-25
 	Medium
-	Runtime 41ms Beats 76.56%, Memory 7.59MB Beats 38.28%
+	Runtime 41ms Beats 76.56%,
  */
 func findDuplicates(nums []int) []int {
 	res := []int{}
