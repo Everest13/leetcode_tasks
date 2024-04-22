@@ -6,51 +6,48 @@ import (
 )
 
 func main() {
-	//1
-	nums1 := []int{1,2,3,0,0,0}
-	m := 3
-	nums2 := []int{2,5,6}
-	n := 3
+	prices := []int{7,6,4,3,1} //0
+	prices = []int{7,1,5,3,6,4} //5
+	prices = []int{2,1,2,1,0,1,2} //2
+	//prices = []int{3,3,5,0,0,3,1,4} //4
 
-	//2
-	//nums1 = []int{1,0}
-	//m = 1
-	//nums2 = []int{2}
-	//n = 1
 
-	//3
-	//nums1 = []int{1}
-	//m = 1
-	//nums2 = []int{}
-	//n = 0
-
-	//4
-	//nums1 = []int{2,0}
-	//m = 1
-	//nums2 = []int{1}
-	//n = 1
-
-	merge(nums1, m, nums2, n)
-	fmt.Println(nums1)
-
-	nums := []int{3,2,3}
-	nums = []int{2,2,1,1,1,2,2}
-	nums = []int{3,3,4}
-	majorityElement(nums)
-	//fmt.Println(nums1)
-
-	nums = []int{1,2,3,4,5,6,7}
-	k := 3
-
-	nums = []int{-1}
-	k = 2
-
-	nums = []int{1,2}
-	k = 3
-
-	rotate(nums, k)
-	fmt.Println(nums)
+	res := maxProfit(prices)
+	fmt.Println(res)
 }
+
+
+/*
+	121. Best Time to Buy and Sell Stock
+	Easy
+	https://leetcode.com/problems/best-time-to-buy-and-sell-stock/?envType=study-plan-v2&envId=top-interview-150
+	Runtime 92ms Beats 73.08%
+	Memory 8.08MB Beats 56.07%
+ */
+func maxProfit(prices []int) int {
+	if len(prices) == 1 {
+		return 0
+	}
+
+	minP := prices[0]
+	diff := 0
+	for i:=1; i<len(prices); i++ {
+		if prices[i] < minP {
+			minP = prices[i]
+			continue
+		}
+
+		if prices[i] > minP {
+			locDiff := prices[i] - minP
+			if locDiff > diff {
+				diff = locDiff
+			}
+		}
+	}
+
+	return diff
+}
+
 
 /*
 	88. Merge Sorted Array
