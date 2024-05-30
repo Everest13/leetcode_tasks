@@ -3,9 +3,9 @@ package main
 import "fmt"
 
 /*
-	Task #704 Binary Search.
+	704. Binary Search
 	https://leetcode.com/problems/binary-search/description/
-	Runtime: 30 ms Beats 77.7%, Memory Usage: 7.3 MB Beats 16.19%
+	Runtime: 30 ms Beats 77.7%, Memory Usage: 7.3 MB Beats 16.19% E
  */
 func main() {
 	arr := []int{-1,0,3,5,9,12,17} //is sorted in asc

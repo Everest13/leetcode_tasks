@@ -15,10 +15,8 @@ func main() {
 
 /*
 	49. Group Anagrams
-	Medium
 	https://leetcode.com/problems/group-anagrams/description/?envType=daily-question&envId=2024-02-06
-	Runtime 14ms Beats 92.27%
-	Memory 7.57MB Beats 69.64%
+	Runtime 14ms Beats 92.27%, Memory 7.57MB Beats 69.64% M
  */
 func groupAnagrams(strs []string) [][]string {
 	if len(strs) < 2 {

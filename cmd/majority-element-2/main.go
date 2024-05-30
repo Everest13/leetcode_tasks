@@ -3,9 +3,9 @@ package main
 import "fmt"
 
 /*
-	Task #229 Majority Element II.
+	229. Majority Element II
 	https://leetcode.com/problems/majority-element-ii/description/?envType=daily-question&envId=2023-10-05
-	Runtime: 9 ms Beats 71.6%, Memory Usage: 5.1 MB Beats 11.3%
+	Runtime: 9 ms Beats 71.6%, Memory Usage: 5.1 MB Beats 11.3% M
 */
 func main() {
 	arr := []int{2,2}

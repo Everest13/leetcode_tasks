@@ -5,9 +5,9 @@ import (
 )
 
 /*
-Task #1 Two Sum.
-https://leetcode.com/problems/two-sum/description/
-Runtime - 27ms(beats 29%), memory: 4.5mb(beats 85%)
+	1. Two Sum
+	https://leetcode.com/problems/two-sum/description/
+	Runtime - 27ms(beats 29%), memory: 4.5mb(beats 85%) E
 */
 func main() {
 	nums := []int{-10, -1, -18, -19}

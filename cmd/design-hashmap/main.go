@@ -2,9 +2,11 @@ package main
 
 import "fmt"
 
-// Task #706 Design HashMap.
-// https://leetcode.com/problems/design-hashmap/description/
-// Runtime: 89 ms, beats 81.16%; memory usage: 7.8mb, beats 83,5%.
+/*
+	706. Design HashMap
+	https://leetcode.com/problems/design-hashmap/description/
+	Runtime: 89 ms, beats 81.16%; memory usage: 7.8mb, beats 83,5% E
+ */
 func main() {
 	myHashMap := Constructor()
 

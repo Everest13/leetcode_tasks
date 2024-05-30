@@ -3,7 +3,8 @@ package main
 import "fmt"
 
 /*
-	36. Valid Sudoku. Medium.
+	36. Valid Sudoku
+	Medium
 	https://leetcode.com/problems/valid-sudoku/description/
 	Runtime 1 ms Beats 61.77%, Memory 3.3 MB Beats 40.61%
  */

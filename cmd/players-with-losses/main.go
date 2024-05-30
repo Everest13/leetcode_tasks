@@ -9,6 +9,7 @@ import (
 	2225. Find Players With Zero or One Losses
 	Medium
 	https://leetcode.com/problems/find-players-with-zero-or-one-losses/description/?envType=daily-question&envId=2024-01-15
+	Runtime 279ms Beats83.46% Memory 25.70MB Beats18.04%
  */
 func main() {
 	matches := [][]int{{1,3},{2,3},{3,6},{5,6},{5,7},{4,5},{4,8},{4,9},{10,4},{10,9}}

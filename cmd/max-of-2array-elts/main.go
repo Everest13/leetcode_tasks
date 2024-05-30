@@ -7,9 +7,8 @@ import (
 
 /*
 	1464. Maximum Product of Two Elements in an Array
-	Easy
 	https://leetcode.com/problems/maximum-product-of-two-elements-in-an-array/?envType=daily-question&envId=2023-12-12
-	Runtime 2 ms Beats 84.16%, Memory 2.6 MB Beats 54.46%
+	Runtime 2 ms Beats 84.16%, Memory 2.6 MB Beats 54.46% E
 */
 func main() {
 	//maxProduct()

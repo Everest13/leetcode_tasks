@@ -5,9 +5,10 @@ import (
 )
 
 /*
-Task #3. Longest Substring Without Repeating Characters. Medium level.
-https://leetcode.com/problems/longest-substring-without-repeating-characters/description/
-Runtime - 3ms(beats 94%), memory: 3.1mb(beats 55%)
+	3. Longest Substring Without Repeating Characters
+	Medium
+	https://leetcode.com/problems/longest-substring-without-repeating-characters/description/
+	Runtime - 3ms(beats 94%), memory: 3.1mb(beats 55%)
 */
 func main() {
 	s := "aab"

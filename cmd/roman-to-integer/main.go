@@ -31,10 +31,11 @@ func main() {
 	fmt.Println("Result is ", result)
 }
 
-// Task #11 Given a roman numeral, convert it to an integer.
-// https://leetcode.com/problems/roman-to-integer/
-// Runtime: 11 ms, faster than 74.44% of Go online submissions for Roman to Integer.
-// Memory Usage: 3.5 MB, less than 15.10% of Go online submissions for Roman to Integer.
+/*
+	13. Given a roman numeral, convert it to an integer.
+	https://leetcode.com/problems/roman-to-integer/
+	Runtime: 11 ms, faster than 74.44% Memory Usage: 3.5 MB, less than 15.10% E
+ */
 func romanToInt(romanNumber string) (int, error) {
 	validRomanNumber, err := validateRoman(romanNumber)
 	if err != nil {

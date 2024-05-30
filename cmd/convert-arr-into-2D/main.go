@@ -7,9 +7,8 @@ import (
 
 /*
 	2610. Convert an Array Into a 2D Array With Conditions
-	Medium
 	https://leetcode.com/problems/convert-an-array-into-a-2d-array-with-conditions/description/?envType=daily-question&envId=2024-01-02
-	Runtime 3 ms Beats 76%, Memory 3.3 MB Beats 96%
+	Runtime 3 ms Beats 76%, Memory 3.3 MB Beats 96% M
  */
 func main() {
 	test := []int{1,3,4,1,2,3,1}

@@ -11,10 +11,8 @@ func main() {
 
 /*
 	55. Jump Game
-	Medium
 	https://leetcode.com/problems/jump-game/description/?envType=study-plan-v2&envId=top-interview-150
-	Runtime 38ms Beats 96.00%
-	Memory 6.96MB Beats 87.41%
+	Runtime 38ms Beats 96.00%, Memory 6.96MB Beats 87.41% M
  */
 func canJump(nums []int) bool {
 	num := nums[0]

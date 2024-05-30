@@ -12,9 +12,9 @@ import (
 var regex = `^\s+([+-]?\d+)`
 
 /*
-8. String to Integer (atoi)
-https://leetcode.com/problems/string-to-integer-atoi/submissions/
-Runtime - 4ms(beats 43.84%), memory: 2.3mb(beats 29.2%)
+	8. String to Integer (atoi)
+	https://leetcode.com/problems/string-to-integer-atoi/submissions/
+	Runtime - 4ms(beats 43.84%), memory: 2.3mb(beats 29.2%)
 */
 func main() {
 	test := "   -00042"

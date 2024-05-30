@@ -7,9 +7,8 @@ import (
 
 /*
 	2870. Minimum Number of Operations to Make Array Empty
-	Medium
 	https://leetcode.com/problems/minimum-number-of-operations-to-make-array-empty/description/?envType=daily-question&envId=2024-01-04
-	Runtime 105 ms Beats 85.19%, Memory 8.8 MB Beats 92.59%
+	Runtime 105 ms Beats 85.19%, Memory 8.8 MB Beats 92.59% M
  */
 func main() {
 	test := []int{2,3,3,2,2,4,2,3,4}

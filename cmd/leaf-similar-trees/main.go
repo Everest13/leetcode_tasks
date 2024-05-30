@@ -4,9 +4,8 @@ import "reflect"
 
 /*
 	872. Leaf-Similar Trees
-	Easy
 	https://leetcode.com/problems/leaf-similar-trees/description/?envType=daily-question&envId=2024-01-09
-	Runtime 2 ms Beats 71.85%, Memory 2.6 MB Beats 52.52%
+	Runtime 2 ms Beats 71.85%, Memory 2.6 MB Beats 52.52% E
  */
 func main() {
 

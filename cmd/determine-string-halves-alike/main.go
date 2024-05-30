@@ -4,9 +4,8 @@ import "fmt"
 
 /*
 	1704. Determine if String Halves Are Alike
-	Easy
 	https://leetcode.com/problems/determine-if-string-halves-are-alike/description/?envType=daily-question&envId=2024-01-12
-	Runtime 2ms Beats 73.81%, Memory 2.22MB Beats 21.43%
+	Runtime 2ms Beats 73.81%, Memory 2.22MB Beats 21.43% E
  */
 func main() {
 	s:= "AbCdEfGh"

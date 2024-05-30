@@ -11,9 +11,8 @@ func main() {
 
 /*
 	122. Best Time to Buy and Sell Stock II
-	Medium
 	https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/description/?envType=study-plan-v2&envId=top-interview-150
-	Runtime 4ms Beats 67.72%, Memory 3.41MB Beats 9.81%
+	Runtime 4ms Beats 67.72%, Memory 3.41MB Beats 9.81% M
  */
 func maxProfit(prices []int) int {
 	profit := 0

@@ -6,9 +6,9 @@ import (
 )
 
 /*
-1561. Maximum Number of Coins You Can Get
-https://leetcode.com/problems/maximum-number-of-coins-you-can-get/description/?envType=daily-question&envId=2023-11-24
-Runtime 107 ms Beats 88%, Memory 8.8 MB Beats 20%
+	1561. Maximum Number of Coins You Can Get
+	https://leetcode.com/problems/maximum-number-of-coins-you-can-get/description/?envType=daily-question&envId=2023-11-24
+	Runtime 107 ms Beats 88%, Memory 8.8 MB Beats 20% M
  */
 func main() {
 	piles := []int{9,8,7,6,5,1,2,3,4}

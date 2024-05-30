@@ -9,10 +9,9 @@ var bracketMap = map[string]string{
 }
 
 /*
-Task #6 Valid Parentheses. Easy level.
-Runtime: 0 ms, faster than 100.00% of Go online submissions for Valid Parentheses.
-Memory Usage: 2.1 MB, less than 24.85% of Go online submissions for Valid Parentheses.
-https://leetcode.com/problems/valid-parentheses/
+	20. Valid Parentheses
+	https://leetcode.com/problems/valid-parentheses/
+	Runtime: 0 ms, faster than 100.00% Memory Usage: 2.1 MB, less than 24.85% E
 */
 func main() {
 	brackets := "()" //"{[()]}{}()[][{()}]"
