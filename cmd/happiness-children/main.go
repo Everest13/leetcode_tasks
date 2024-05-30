@@ -19,9 +19,8 @@ func main() {
 
 /*
 	3075. Maximize Happiness of Selected Children
-	Medium
 	https://leetcode.com/problems/maximize-happiness-of-selected-children/description/?envType=daily-question&envId=2024-05-09
-	Runtime 156ms Beats 91.08%, Memory 12.38MB Beats 42.68%
+	Runtime 156ms Beats 91.08%, Memory 12.38MB Beats 42.68% M
 */
 func maximumHappinessSum(happiness []int, k int) int64 {
 	sort.Slice(happiness, func(a, b int) bool {

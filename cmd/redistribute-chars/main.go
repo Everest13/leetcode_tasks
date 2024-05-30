@@ -4,9 +4,8 @@ import "fmt"
 
 /*
 	1897. Redistribute Characters to Make All Strings Equal
-	Easy
 	https://leetcode.com/problems/redistribute-characters-to-make-all-strings-equal/description/?envType=daily-question&envId=2023-12-30
-	Runtime 11 ms Beats 66.67%, Memory 3.8 MB Beats 88.89%
+	Runtime 11 ms Beats 66.67%, Memory 3.8 MB Beats 88.89% E
  */
 func main() {
 	words := []string{"abc","aabc","bc"}

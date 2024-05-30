@@ -7,9 +7,8 @@ import (
 
 /*
 	1846. Maximum Element After Decreasing and Rearranging
-	Medium
 	https://leetcode.com/problems/maximum-element-after-decreasing-and-rearranging/description/?envType=daily-question&envId=2023-11-15
-	Runtime 76 ms Beats 75%, Memory 8.7 MB Beats 50%
+	Runtime 76 ms Beats 75%, Memory 8.7 MB Beats 50% M
  */
 func main() {
 	arr := []int{2,2,1,2,1}

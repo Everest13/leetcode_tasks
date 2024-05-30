@@ -10,10 +10,9 @@ type ListNode struct {
 }
 
 /*
-Task #8 Merge Two Sorted Lists (Easy)
-https://leetcode.com/problems/merge-two-sorted-lists/
-Runtime: 0 ms, faster than 100.00% of Go online submissions for Merge Two Sorted Lists.
-Memory Usage: 2.5 MB, less than 88.59% of Go online submissions for Merge Two Sorted Lists.
+	21. Merge Two Sorted Lists
+	https://leetcode.com/problems/merge-two-sorted-lists/
+	Runtime: 0 ms, faster than 100.00% Memory Usage: 2.5 MB, less than 88.59% E
 */
 func main() {
 	//first

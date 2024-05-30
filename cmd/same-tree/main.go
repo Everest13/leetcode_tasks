@@ -9,9 +9,9 @@ type TreeNode struct {
 }
 
 /**
-100. Same Tree. Easy.
-https://leetcode.com/problems/same-tree/description/
-Runtime 2ms, beats 61,77%; Memory 2.1mb, beats 92.11%.
+	100. Same Tree
+	https://leetcode.com/problems/same-tree/description/
+	Runtime 2ms, beats 61,77%; Memory 2.1mb, beats 92.11% E
  */
 func main() {
 	head1 := &TreeNode{

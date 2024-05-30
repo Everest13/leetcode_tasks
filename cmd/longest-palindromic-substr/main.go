@@ -3,11 +3,10 @@ package main
 import "fmt"
 
 /*
-Longest Palindromic Substring. Medium level.
-https://leetcode.com/problems/longest-palindromic-substring/
-
-Алгоритм взят отсюда https://www.geeksforgeeks.org/given-a-string-print-all-possible-palindromic-partition/
-Решение не проходит по таймингу ;)
+	5. Longest Palindromic Substring
+	https://leetcode.com/problems/longest-palindromic-substring/
+	M
+	Algorithm https://www.geeksforgeeks.org/given-a-string-print-all-possible-palindromic-partition/
 */
 
 var longest string

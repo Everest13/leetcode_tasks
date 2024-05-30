@@ -8,10 +8,9 @@ type ListNode struct {
 }
 
 /*
-Task #6 Remove Nth Node From End of List (Medium)
-https://leetcode.com/problems/remove-nth-node-from-end-of-list/
-Runtime: 0 ms, faster than 100.00% of Go online submissions for Remove Nth Node From End of List.
-Memory Usage: 2.3 MB, less than 35.84% of Go online submissions for Remove Nth Node From End of List.
+	19. Remove Nth Node From End of List
+	https://leetcode.com/problems/remove-nth-node-from-end-of-list/
+	Runtime: 0 ms, faster than 100.00% Memory Usage: 2.3 MB, less than 35.84% M
 */
 func main() {
 	//example

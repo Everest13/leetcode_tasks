@@ -16,10 +16,11 @@ var numberChars = map[string][]string{
 	"9": {"w", "x", "y", "z"},
 }
 
-// Task #5 Letter Combinations of a Phone Number. (Medium)
-// https://leetcode.com/problems/letter-combinations-of-a-phone-number/
-// Runtime: 0 ms, faster than 100.00% of Go online submissions for Letter Combinations of a Phone Number.
-// Memory Usage: 2.1 MB, less than 16.39% of Go online submissions for Letter Combinations of a Phone Number.
+/*
+	17. Letter Combinations of a Phone Number
+	https://leetcode.com/problems/letter-combinations-of-a-phone-number/
+	Runtime: 0 ms, faster than 100.00%, Memory Usage: 2.1 MB, less than 16.39% M
+ */
 func main() {
 	digits := "234"
 	err := validation(digits)

@@ -12,9 +12,8 @@ func main() {
 
 /*
 	1624. Largest Substring Between Two Equal Characters
-	Easy
 	https://leetcode.com/problems/largest-substring-between-two-equal-characters/description/?envType=daily-question&envId=2023-12-31
-	Runtime 1 ms Beats 70.59%, Memory 2.1 MB Beats 47.6%
+	Runtime 1 ms Beats 70.59%, Memory 2.1 MB Beats 47.6% E
 */
 func maxLengthBetweenEqualCharacters(s string) int {
 	subStrMap := map[rune]int{}

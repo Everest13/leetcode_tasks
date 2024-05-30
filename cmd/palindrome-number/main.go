@@ -7,8 +7,9 @@ import (
 )
 
 /*
-9. Palindrome Number. Easy level.
-https://leetcode.com/problems/palindrome-number/description/
+	9. Palindrome Number
+	Easy
+	https://leetcode.com/problems/palindrome-number/description/
 */
 func main() {
 	test := 1000021

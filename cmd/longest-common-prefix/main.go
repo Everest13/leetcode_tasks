@@ -6,10 +6,11 @@ import (
 	"strings"
 )
 
-// Task #14 Longest Common Prefix
-// https://leetcode.com/problems/longest-common-prefix/submissions/
-// Runtime: 0 ms, faster than 100.00% of Go online submissions for Longest Common Prefix.
-// Memory Usage: 2.2 MB, less than 86.62% of Go online submissions for Longest Common Prefix.
+/*
+	14. Longest Common Prefix
+	https://leetcode.com/problems/longest-common-prefix/description/
+	Runtime: 0 ms, faster than 100.00%, Memory Usage: 2.2 MB, less than 86.62% E
+ */
 func main() {
 	strs := []string{"flower", "flow", "flight"}
 	err := validateStrs(strs)

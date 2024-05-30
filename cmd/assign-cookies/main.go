@@ -7,9 +7,8 @@ import (
 
 /*
 	455. Assign Cookies
-	Easy
 	https://leetcode.com/problems/assign-cookies/description/
-	Runtime 34 ms Beats 16.22%, Memory 6 MB Beats 94.59%
+	Runtime 34 ms Beats 16.22%, Memory 6 MB Beats 94.59% E
  */
 func main() {
 	g := []int{1,2}

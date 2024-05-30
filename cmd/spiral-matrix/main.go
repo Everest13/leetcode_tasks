@@ -3,9 +3,9 @@ package main
 import "fmt"
 
 /**
-	54. Spiral Matrix. Medium.
+	54. Spiral Matrix
 	https://leetcode.com/problems/spiral-matrix/description/?envType=daily-question&envId=2023-10-05
-	Runtime 1ms, beats 80,6%; Memory 1.9mb, beats 51.6%.
+	Runtime 1ms, beats 80,6%; Memory 1.9mb, beats 51.6% M
 */
 func main() {
 

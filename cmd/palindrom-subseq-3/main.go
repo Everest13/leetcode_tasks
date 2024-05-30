@@ -7,7 +7,7 @@ import (
 /*
 	1930. Unique Length-3 Palindromic Subsequences
 	https://leetcode.com/problems/unique-length-3-palindromic-subsequences/description/?envType=daily-question&envId=2023-11-14
-	Runtime 288 ms Beats 88.89%, Memory 6.7 MB Beats 66.67%
+	Runtime 288 ms Beats 88.89%, Memory 6.7 MB Beats 66.67% M
  */
 func main() {
 	test := "bbcbaba"

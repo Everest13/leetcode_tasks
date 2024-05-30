@@ -14,9 +14,8 @@ func main() {
 
 /*
 	451. Sort Characters By Frequency
-	Medium
 	https://leetcode.com/problems/sort-characters-by-frequency/description/?envType=daily-question&envId=2024-02-07
-	Runtime 6ms Beats75.94% Memory 6.42MB Beats 43.32%
+	Runtime 6ms Beats75.94% Memory 6.42MB Beats 43.32% M
  */
 func frequencySort(s string) string {
 	charsMap := map[rune]int{}

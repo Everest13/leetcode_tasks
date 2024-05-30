@@ -7,9 +7,8 @@ import (
 
 /*
 	1662. Check If Two String Arrays are Equivalent
-	Easy
 	https://leetcode.com/problems/check-if-two-string-arrays-are-equivalent/description/?envType=daily-question&envId=2023-12-01
-	Runtime 4 ms Beats 69.90%, Memory 2.8 MB Beats 92.2%
+	Runtime 4 ms Beats 69.90%, Memory 2.8 MB Beats 92.2% E
  */
 func main() {
 	word1 := []string{"ab", "c"}

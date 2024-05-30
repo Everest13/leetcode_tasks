@@ -3,9 +3,9 @@ package main
 import "fmt"
 
 /*
-Zigzag Conversion
-https://leetcode.com/problems/zigzag-conversion/submissions/912603305/
-Runtime - 3ms(beats 94.7%), memory: 5.5mb(beats 73.1%)
+	6. Zigzag Conversion
+	https://leetcode.com/problems/zigzag-conversion/description/
+	Runtime - 3ms(beats 94.7%), memory: 5.5mb(beats 73.1%) M
 */
 func main() {
 	str := "PAYPALISHIRING"

@@ -6,10 +6,10 @@ import (
 )
 
 /*
-10. Regular Expression Matching. Hard level.
-https://leetcode.com/problems/regular-expression-matching/description/
-
-Runtime - 3ms(beats 64%), memory: 3.8mb(beats 14.9%)
+	10. Regular Expression Matching
+	Hard
+	https://leetcode.com/problems/regular-expression-matching/description/
+	Runtime - 3ms(beats 64%), memory: 3.8mb(beats 14.9%)
 */
 func main() {
 	test1 := "aa"

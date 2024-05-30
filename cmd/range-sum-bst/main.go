@@ -8,9 +8,8 @@ type TreeNode struct {
 
 /*
 	938. Range Sum of BST
-	Easy
 	https://leetcode.com/problems/range-sum-of-bst/description/?envType=daily-question&envId=2024-01-08
-	Runtime 63 ms Beats 94.54%, Memory 7.4 MB Beats 95.56%
+	Runtime 63 ms Beats 94.54%, Memory 7.4 MB Beats 95.56% E
  */
 func main()  {
 

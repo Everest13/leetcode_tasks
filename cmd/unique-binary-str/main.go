@@ -9,9 +9,9 @@ import (
 )
 
 /*
-1980. Find Unique Binary String
-https://leetcode.com/problems/find-unique-binary-string/description/?envType=daily-question&envId=2023-11-16
-Runtime 0 ms Beats 100%, Memory 2.3 MB Beats 56.26%
+	1980. Find Unique Binary String
+	https://leetcode.com/problems/find-unique-binary-string/description/?envType=daily-question&envId=2023-11-16
+	Runtime 0 ms Beats 100%, Memory 2.3 MB Beats 56.26% M
 */
 func main() {
 	test := []string{"00","10"}

@@ -5,9 +5,9 @@ import (
 )
 
 /*
-844. Backspace String Compare
-https://leetcode.com/problems/backspace-string-compare/submissions/1081294682/?envType=daily-question&envId=2023-10-19
-Runtime 2 ms Beats 15.41%, Memory 2.2 MB Beats 17.79%
+	844. Backspace String Compare
+	https://leetcode.com/problems/backspace-string-compare/description/?envType=daily-question&envId=2023-10-19
+	Runtime 2 ms Beats 15.41%, Memory 2.2 MB Beats 17.79% E
  */
 func main() {
 	s := "ab#c"

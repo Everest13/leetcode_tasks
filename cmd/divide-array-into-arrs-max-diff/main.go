@@ -15,9 +15,8 @@ func main() {
 
 /*
 	2966. Divide Array Into Arrays With Max Difference
-	Medium
 	https://leetcode.com/problems/divide-array-into-arrays-with-max-difference/description/?envType=daily-question&envId=2024-02-01
-	Runtime 155ms beats 80%, Memory 10.6 beats 48%
+	Runtime 155ms beats 80%, Memory 10.6 beats 48% M
  */
 func divideArray(nums []int, k int) [][]int {
 	sort.Ints(nums)

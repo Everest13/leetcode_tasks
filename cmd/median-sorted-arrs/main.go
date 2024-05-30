@@ -6,13 +6,10 @@ import (
 )
 
 /*
-Task #13 Median of Two Sorted Arrays (Hard)
-https://leetcode.com/problems/median-of-two-sorted-arrays/description/
-Runtime: 17 ms, faster than 55.00% of Go online submissions for Merge Two Sorted Lists.
-Memory Usage: 6.5 MB, less than 12.59% of Go online submissions for Merge Two Sorted Lists.
-
-Offtop:
-Not  O(log (m+n)) decision.
+	4. Median of Two Sorted Arrays
+	Hard
+	https://leetcode.com/problems/median-of-two-sorted-arrays/description/
+	Runtime: 17 ms, faster than 55.00% Memory Usage: 6.5 MB, less than 12.59%
 */
 func main() {
 	nums1 := []int{1, 2}

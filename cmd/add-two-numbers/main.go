@@ -10,9 +10,9 @@ type ListNode struct {
 }
 
 /*
-Task Add Two Numbers. Medium level.
-https://leetcode.com/problems/add-two-numbers/description/
-Runtime - 3ms(beats 99%), memory: 4.5mb(beats 65%)
+	2.Task Add Two Numbers
+	https://leetcode.com/problems/add-two-numbers/description/
+	Runtime - 3ms(beats 99%), memory: 4.5mb(beats 65%) M
 */
 func main() {
 	arr1 := []int{2, 4, 3}
