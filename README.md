@@ -24,6 +24,7 @@ This repo for solutions from leetcode tasks:
 #54. Spiral Matrix. Dest .cmd/spiral-matrix \
 #55. Jump Game. Dest .cmd/jump-game \
 #88. Merge Sorted Array. Desc .cmd/merge-sorted-arr \
+#91. Decode Ways. Desc .cmd/decode-ways
 #94. Binary Tree Inorder Traversal. Dest .cmd/bin-tree-inord-travers \
 #100. Same Tree. Dest .cmd/same-tree \
 #121. Best Time to Buy and Sell Stock. Dest .cmd/best-time-buy-sell-stock \
@@ -32,6 +33,7 @@ This repo for solutions from leetcode tasks:
 #169. Majority Element. Dest .cmd/majority-element \
 #189. Rotate Array. Dest .cmd/rotate-arr \
 #229. Majority Element II. Dest .cmd/majority-element-2 \
+#409. Longest Palindrome. Desc .cmd/longest-palindrome
 #442. Find All Duplicates in an Array. Dest .cmd/task-scheduler \
 #451. Sort Characters By Frequency. Dest .cmd/sort-chars-by-frequency \
 #455. Assign Cookies. Dest .cmd/assign-cookies \
@@ -63,3 +65,4 @@ This repo for solutions from leetcode tasks:
 #2785. Sort Vowels in a String. Dest .cmd/sort-str-vowels \
 #2966. Divide Array Into Arrays With Max Difference. Dest .cmd/divide-array-into-arrs-max-diff \
 #3075. Maximize Happiness of Selected Children. Dest .cmd/happiness-children \
+
