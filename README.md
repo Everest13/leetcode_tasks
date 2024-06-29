@@ -45,6 +45,7 @@ This repo for solutions from leetcode tasks:
 #931. Minimum Falling Path Sum. Dest .cmd/min-falling-path-sum \
 #938. Range Sum of BST. Dest .cmd/range-sum-bst \
 #1207. Unique Number of Occurrences. Desc .cmd/uniquen-num-occur \
+#1291. Sequential Digits. Dest .cmd/sequential-digits \
 #1347. Minimum Number of Steps to Make Two Strings Anagram. Dest .cmd/min-num-steps-make-2-str-anagram \
 #1422. Maximum Score After Splitting a String. Dest .cmd/max-score-after-split-string \
 #1464. Maximum Product of Two Elements in an Array. Dest .cmd/max-of-2array-elts \
