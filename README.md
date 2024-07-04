@@ -30,9 +30,12 @@ This repo for solutions from leetcode tasks:
 #121. Best Time to Buy and Sell Stock. Dest .cmd/best-time-buy-sell-stock \
 #122. Best Time to Buy and Sell Stock II. Dest .cmd/best-time-buy-sell-stock-2 \
 #135. Candy. Dest .cmd/candy \
+#143. Reorder List. Dest .cmd/reorder-list \
 #169. Majority Element. Dest .cmd/majority-element \
 #189. Rotate Array. Dest .cmd/rotate-arr \
 #229. Majority Element II. Dest .cmd/majority-element-2 \
+#287. Find the Duplicate Number. Dest .cmd/find-duplicate-num \
+#350. Intersection of Two Arrays II. Dest .cmd/intersec-two-arr-2 \
 #409. Longest Palindrome. Desc .cmd/longest-palindrome \
 #442. Find All Duplicates in an Array. Dest .cmd/task-scheduler \
 #451. Sort Characters By Frequency. Dest .cmd/sort-chars-by-frequency \
