@@ -20,6 +20,7 @@ This repo for solutions from leetcode tasks:
 #21. Merge Two Sorted Lists. Desc .cmd/merge-two-sorted-lists \
 #36. Valid Sudoku. Dest .cmd/valid-sudoku \
 #37. Sudoku Solver. Dest .cmd/sudoku-solver \
+#42. Trapping Rain Water. Dest .cmd/trapping-rain-water \
 #49. Group Anagrams. Dest .cmd/group-anagrams \
 #54. Spiral Matrix. Dest .cmd/spiral-matrix \
 #55. Jump Game. Dest .cmd/jump-game \
