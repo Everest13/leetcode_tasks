@@ -64,6 +64,7 @@ This repo for solutions from leetcode tasks:
 #1897. Redistribute Characters to Make All Strings Equal. Dest .cmd/redistribute-chars \
 #1930. Unique Length-3 Palindromic Subsequences. Dest .cmd/palindrom-subseq-3 \
 #1980. Find Unique Binary String. Dest .cmd/unique-binary-str \
+#2058. Find the Minimum and Maximum Number of Nodes Between Critical Points. Dest .cmd/min-max-nodes-betw-crit-points \
 #2125. Number of Laser Beams in a Bank. Dest .cmd/num-laser-beams-bank \
 #2225. Find Players With Zero or One Losses. Desc .cmd/players-with-losses \
 #2385. Amount of Time for Binary Tree to Be Infected. Dest .cmd/amount-time-binary-tree-infected \
