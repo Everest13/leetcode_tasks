@@ -44,6 +44,7 @@ This repo for solutions from leetcode tasks:
 #704. Binary Search. Dest .cmd/binary-search \
 #706. Design HashMap. Dest .cmd/design-hashmap \
 #739. Daily Temperatures. Dest .cmd/daily-temperatures \
+#812. Largest Triangle Area. Dest .cmd/largest-triangle-area \
 #844. Backspace String Compare. Dest .cmd/backspace-str-compare \
 #872. Leaf-Similar Trees. Dest .cmd/leaf-similar-trees \
 #931. Minimum Falling Path Sum. Dest .cmd/min-falling-path-sum \
