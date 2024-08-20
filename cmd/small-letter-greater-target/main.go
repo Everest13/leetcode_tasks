@@ -11,7 +11,7 @@ func main() {
 }
 
 /*
-	https://leetcode.com/problems/find-smallest-letter-greater-than-target/description/
+	744. Find Smallest Letter Greater Than Target
 	https://leetcode.com/problems/find-smallest-letter-greater-than-target/description/
 	Runtime 2ms Beats 60.23%
 	Memory 2.82MB Beats 65.50%

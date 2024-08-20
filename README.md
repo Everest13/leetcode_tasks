@@ -24,6 +24,7 @@ This repo for solutions from leetcode tasks:
 #49. Group Anagrams. Dest .cmd/group-anagrams \
 #54. Spiral Matrix. Dest .cmd/spiral-matrix \
 #55. Jump Game. Dest .cmd/jump-game \
+#71. Simplify Path. Dest .cmd/simplify-path \
 #88. Merge Sorted Array. Desc .cmd/merge-sorted-arr \
 #91. Decode Ways. Desc .cmd/decode-ways \
 #94. Binary Tree Inorder Traversal. Dest .cmd/bin-tree-inord-travers \
@@ -44,6 +45,7 @@ This repo for solutions from leetcode tasks:
 #704. Binary Search. Dest .cmd/binary-search \
 #706. Design HashMap. Dest .cmd/design-hashmap \
 #739. Daily Temperatures. Dest .cmd/daily-temperatures \
+#744. Find Smallest Letter Greater Than Target. Dest .cmd/small-letter-greater-target \
 #812. Largest Triangle Area. Dest .cmd/largest-triangle-area \
 #844. Backspace String Compare. Dest .cmd/backspace-str-compare \
 #872. Leaf-Similar Trees. Dest .cmd/leaf-similar-trees \
@@ -75,4 +77,3 @@ This repo for solutions from leetcode tasks:
 #2785. Sort Vowels in a String. Dest .cmd/sort-str-vowels \
 #2966. Divide Array Into Arrays With Max Difference. Dest .cmd/divide-array-into-arrs-max-diff \
 #3075. Maximize Happiness of Selected Children. Dest .cmd/happiness-children \
-#71. Simplify Path. Dest .cmd/simplify-path \
