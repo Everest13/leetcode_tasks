@@ -10,6 +10,7 @@ This repo for solutions from leetcode tasks:
 #8. String to Integer. Dest .cmd/string-int-atoi \
 #9. Palindrome Number. Dest .cmd/palindrome-number \
 #10. Regular Expression Matching. Dest .cmd/regular-expression-matching \
+#11. Container With Most Water. Dest .cmd/most-water-container \
 #12. Given an integer numeral, convert it to roman.  Dest .cmd/integer-to-roman \
 #13. Given a roman numeral, convert it to an integer. Dest .cmd/roman-to-integer \
 #14. Longest Common Prefix. Dest .cmd/longest-common-prefix \
