@@ -80,3 +80,4 @@ This repo for solutions from leetcode tasks:
 #2966. Divide Array Into Arrays With Max Difference. Dest .cmd/divide-array-into-arrs-max-diff \
 #3075. Maximize Happiness of Selected Children. Dest .cmd/happiness-children \
 #3110. Score of a String. Dest .cmd/score-str \
+#1689. Partitioning Into Minimum Number Of Deci-Binary Numbers. Dest .cmd/deci-binary-nums-parts \
