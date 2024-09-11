@@ -7,15 +7,7 @@ type ListNode struct {
 	Next *ListNode
 }
 
-/*
-	19. Remove Nth Node From End of List
-	https://leetcode.com/problems/remove-nth-node-from-end-of-list/
-	Runtime: 0 ms, faster than 100.00% Memory Usage: 2.3 MB, less than 35.84% M
-*/
 func main() {
-	//example
-	//arr := []int{1, 2}
-	//arr := []int{1, 2, 3, 4, 5, 6}
 	arr := []int{1}
 	n := 1
 	head := &ListNode{
@@ -43,6 +35,12 @@ func main() {
 	}
 }
 
+/*
+	19. Remove Nth Node From End of List
+	Medium
+	https://leetcode.com/problems/remove-nth-node-from-end-of-list/
+	Runtime: 0 ms, faster than 100.00% Memory Usage: 2.3 MB, less than 35.84% M
+*/
 func removeNthFromEnd(head *ListNode, n int) *ListNode {
 	current := head
 	counter := 0
