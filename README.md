@@ -16,6 +16,7 @@ This repo for solutions from leetcode tasks:
 #14. Longest Common Prefix. Dest .cmd/longest-common-prefix \
 #15: 3Sum. Dest .cmd/3-sum \
 #17. Letter Combinations of a Phone Number. Dest .cmd/combinations-phone-number \
+#18. 18. 4Sum. Dest .cmd/4-sum \
 #19. Remove Nth Node From End of List. Dest .cmd/remove-node-end-list \
 #20. Valid Parentheses. Dest .cmd/valid-parentheses \
 #21. Merge Two Sorted Lists. Desc .cmd/merge-two-sorted-lists \
