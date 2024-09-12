@@ -20,6 +20,7 @@ This repo for solutions from leetcode tasks:
 #19. Remove Nth Node From End of List. Dest .cmd/remove-node-end-list \
 #20. Valid Parentheses. Dest .cmd/valid-parentheses \
 #21. Merge Two Sorted Lists. Desc .cmd/merge-two-sorted-lists \
+#23. Merge k Sorted Lists. Desc .cmd/generate-parentheses \
 #24. Swap Nodes in Pairs. Desc .cmd/swap-nodes \
 #36. Valid Sudoku. Dest .cmd/valid-sudoku \
 #37. Sudoku Solver. Dest .cmd/sudoku-solver \
