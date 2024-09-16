@@ -23,6 +23,7 @@ This repo for solutions from leetcode tasks:
 #23. Merge k Sorted Lists. Desc .cmd/generate-parentheses \
 #24. Swap Nodes in Pairs. Desc .cmd/swap-nodes \
 #30. Substring with Concatenation of All Words. Desc .cmd/substr-conct-all-words \
+#32. Longest Valid Parentheses. Desc .cmd/longest-valid-parentheses \
 #36. Valid Sudoku. Dest .cmd/valid-sudoku \
 #37. Sudoku Solver. Dest .cmd/sudoku-solver \
 #42. Trapping Rain Water. Dest .cmd/trapping-rain-water \
