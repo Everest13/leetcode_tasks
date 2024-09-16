@@ -26,6 +26,7 @@ This repo for solutions from leetcode tasks:
 #32. Longest Valid Parentheses. Desc .cmd/longest-valid-parentheses \
 #36. Valid Sudoku. Dest .cmd/valid-sudoku \
 #37. Sudoku Solver. Dest .cmd/sudoku-solver \
+#41. First Missing Positive. Dest .cmd/first-missing-positive \
 #42. Trapping Rain Water. Dest .cmd/trapping-rain-water \
 #49. Group Anagrams. Dest .cmd/group-anagrams \
 #54. Spiral Matrix. Dest .cmd/spiral-matrix \
