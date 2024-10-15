@@ -28,6 +28,7 @@ This repo for solutions from leetcode tasks:
 #37. Sudoku Solver. Dest .cmd/sudoku-solver \
 #41. First Missing Positive. Dest .cmd/first-missing-positive \
 #42. Trapping Rain Water. Dest .cmd/trapping-rain-water \
+#44. Wildcard Matching. Dest .cmd/wildcard-matchingr \
 #49. Group Anagrams. Dest .cmd/group-anagrams \
 #54. Spiral Matrix. Dest .cmd/spiral-matrix \
 #55. Jump Game. Dest .cmd/jump-game \
