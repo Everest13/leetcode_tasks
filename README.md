@@ -15,6 +15,7 @@ This repo for solutions from leetcode tasks:
 #13. Given a roman numeral, convert it to an integer. Dest .cmd/roman-to-integer \
 #14. Longest Common Prefix. Dest .cmd/longest-common-prefix \
 #15: 3Sum. Dest .cmd/3-sum \
+#16. 3Sum Closest. Dest .cmd/3sum-closest \
 #17. Letter Combinations of a Phone Number. Dest .cmd/combinations-phone-number \
 #18. 18. 4Sum. Dest .cmd/4-sum \
 #19. Remove Nth Node From End of List. Dest .cmd/remove-node-end-list \
