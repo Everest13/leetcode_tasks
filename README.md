@@ -25,6 +25,7 @@ This repo for solutions from leetcode tasks:
 #24. Swap Nodes in Pairs. Desc .cmd/swap-nodes \
 #30. Substring with Concatenation of All Words. Desc .cmd/substr-conct-all-words \
 #32. Longest Valid Parentheses. Desc .cmd/longest-valid-parentheses \
+#34. Find First and Last Position of Element in Sorted Array. Desc .cmd/find-first-last-pos \
 #36. Valid Sudoku. Dest .cmd/valid-sudoku \
 #37. Sudoku Solver. Dest .cmd/sudoku-solver \
 #41. First Missing Positive. Dest .cmd/first-missing-positive \
