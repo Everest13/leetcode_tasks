@@ -28,6 +28,7 @@ This repo for solutions from leetcode tasks:
 #34. Find First and Last Position of Element in Sorted Array. Desc .cmd/find-first-last-pos \
 #36. Valid Sudoku. Dest .cmd/valid-sudoku \
 #37. Sudoku Solver. Dest .cmd/sudoku-solver \
+#39. Combination Sum. Dest .cmd/combination-sum \
 #41. First Missing Positive. Dest .cmd/first-missing-positive \
 #42. Trapping Rain Water. Dest .cmd/trapping-rain-water \
 #44. Wildcard Matching. Dest .cmd/wildcard-matchingr \
