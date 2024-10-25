@@ -46,6 +46,7 @@ This repo for solutions from leetcode tasks:
 #135. Candy. Dest .cmd/candy \
 #143. Reorder List. Dest .cmd/reorder-list \
 #169. Majority Element. Dest .cmd/majority-element \
+#187. Repeated DNA Sequences. Dest .cmd/repeated-dna-sequences \
 #189. Rotate Array. Dest .cmd/rotate-arr \
 #229. Majority Element II. Dest .cmd/majority-element-2 \
 #287. Find the Duplicate Number. Dest .cmd/find-duplicate-num \
