@@ -26,6 +26,7 @@ func main() {
 
 /*
 	https://leetcode.com/problems/combination-sum/
+	Medium
 	39. Combination Sum
 	Runtime 0ms Beats 100.00%, Memory 4.98MB Beats 19.14%
  */

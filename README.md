@@ -36,6 +36,7 @@ This repo for solutions from leetcode tasks:
 #54. Spiral Matrix. Dest .cmd/spiral-matrix \
 #55. Jump Game. Dest .cmd/jump-game \
 #71. Simplify Path. Dest .cmd/simplify-path \
+#73. Set Matrix Zeroes. Dest .cmd/set-matrix-zeroes \
 #88. Merge Sorted Array. Desc .cmd/merge-sorted-arr \
 #91. Decode Ways. Desc .cmd/decode-ways \
 #94. Binary Tree Inorder Traversal. Dest .cmd/bin-tree-inord-travers \
