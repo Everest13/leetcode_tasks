@@ -30,6 +30,7 @@ func main() {
 
 /*
 	34. Find First and Last Position of Element in Sorted Array
+	Medium
 	https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/description/
 	Runtime 0ms Beats 100.00%, Memory 6.29MB Beats 7.58%
  */
@@ -60,8 +61,6 @@ func searchRange(nums []int, target int) []int {
 
 		mid = n - (n-start)/2
 	}
-
-
 
 	s := mid
 	e := mid
