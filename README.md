@@ -45,6 +45,7 @@ This repo for solutions from leetcode tasks:
 #122. Best Time to Buy and Sell Stock II. Dest .cmd/best-time-buy-sell-stock-2 \
 #135. Candy. Dest .cmd/candy \
 #143. Reorder List. Dest .cmd/reorder-list \
+#146. LRU Cache. Dest .cmd/url-cache \
 #169. Majority Element. Dest .cmd/majority-element \
 #187. Repeated DNA Sequences. Dest .cmd/repeated-dna-sequences \
 #189. Rotate Array. Dest .cmd/rotate-arr \
