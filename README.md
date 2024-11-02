@@ -36,6 +36,7 @@ This repo for solutions from leetcode tasks:
 #49. Group Anagrams. Dest .cmd/group-anagrams \
 #54. Spiral Matrix. Dest .cmd/spiral-matrix \
 #55. Jump Game. Dest .cmd/jump-game \
+#66. Plus One. Dest .cmd/plus-one \
 #71. Simplify Path. Dest .cmd/simplify-path \
 #73. Set Matrix Zeroes. Dest .cmd/set-matrix-zeroes \
 #88. Merge Sorted Array. Desc .cmd/merge-sorted-arr \
