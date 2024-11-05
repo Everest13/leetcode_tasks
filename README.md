@@ -48,6 +48,7 @@ This repo for solutions from leetcode tasks:
 #135. Candy. Dest .cmd/candy \
 #143. Reorder List. Dest .cmd/reorder-list \
 #146. LRU Cache. Dest .cmd/url-cache \
+#164. Maximum Gap. Dest .cmd/max-gap \
 #169. Majority Element. Dest .cmd/majority-element \
 #187. Repeated DNA Sequences. Dest .cmd/repeated-dna-sequences \
 #189. Rotate Array. Dest .cmd/rotate-arr \
