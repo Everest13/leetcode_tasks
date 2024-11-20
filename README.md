@@ -47,6 +47,7 @@ This repo for solutions from leetcode tasks:
 #122. Best Time to Buy and Sell Stock II. Dest .cmd/best-time-buy-sell-stock-2 \
 #133. Clone Graph. Dest .cmd/clone-graph \
 #135. Candy. Dest .cmd/candy \
+#139. Word Break. Dest .cmd/word-break \
 #143. Reorder List. Dest .cmd/reorder-list \
 #146. LRU Cache. Dest .cmd/url-cache \
 #164. Maximum Gap. Dest .cmd/max-gap \
