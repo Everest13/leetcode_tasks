@@ -24,6 +24,7 @@ This repo for solutions from leetcode tasks:
 #23. Merge k Sorted Lists. Desc .cmd/generate-parentheses \
 #24. Swap Nodes in Pairs. Desc .cmd/swap-nodes \
 #26. Remove Duplicates from Sorted Array. Desc .cmd/remove-dublicates-sort-arr \
+#28. Find the Index of the First Occurrence in a String. Desc .cmd/first-occurence-index \
 #30. Substring with Concatenation of All Words. Desc .cmd/substr-conct-all-words \
 #32. Longest Valid Parentheses. Desc .cmd/longest-valid-parentheses \
 #34. Find First and Last Position of Element in Sorted Array. Desc .cmd/find-first-last-pos \
@@ -101,3 +102,4 @@ This repo for solutions from leetcode tasks:
 #2966. Divide Array Into Arrays With Max Difference. Dest .cmd/divide-array-into-arrs-max-diff \
 #3075. Maximize Happiness of Selected Children. Dest .cmd/happiness-children \
 #3110. Score of a String. Dest .cmd/score-str \
+#3324. Find the Sequence of Strings Appeared on the Screen. Dest .cmd/alisa-seq-appeared \
