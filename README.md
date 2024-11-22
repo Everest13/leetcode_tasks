@@ -78,6 +78,7 @@ This repo for solutions from leetcode tasks:
 #1561. Maximum Number of Coins You Can Get. Dest .cmd/max-num-coins \
 #1624. Largest Substring Between Two Equal Characters. Dest .cmd/largest-substr-between \
 #1662. Check If Two String Arrays are Equivalent. Dest .cmd/is-two-str-eq \
+#1689. Partitioning Into Minimum Number Of Deci-Binary Numbers. Dest .cmd/deci-binary-nums-parts \
 #1704. Determine if String Halves Are Alike. Dest .cmd/determine-string-halves-alike \
 #1750. Minimum Length of String After Deleting Similar Ends. Dest .cmd/min-l-str-after-del-similar-ends \
 #1751. Maximum Number of Events That Can Be Attended II. Dest .cmd/max-num-events-be-attended-2 \
@@ -91,6 +92,7 @@ This repo for solutions from leetcode tasks:
 #2125. Number of Laser Beams in a Bank. Dest .cmd/num-laser-beams-bank \
 #2225. Find Players With Zero or One Losses. Desc .cmd/players-with-losses \
 #2385. Amount of Time for Binary Tree to Be Infected. Dest .cmd/amount-time-binary-tree-infected \
+#2516. Take K of Each Character From Left and Right. Dest .cmd/k-char-left-right \
 #2610. Convert an Array Into a 2D Array With Conditions. Dest .cmd/convert-arr-into-2D \
 #2706. Buy Two Chocolates. Dest .cmd/buy-two-chocolates \
 #2807. Insert Greatest Common Divisors in Linked List. Dest .cmd/insert-divis-link-list \
@@ -99,4 +101,3 @@ This repo for solutions from leetcode tasks:
 #2966. Divide Array Into Arrays With Max Difference. Dest .cmd/divide-array-into-arrs-max-diff \
 #3075. Maximize Happiness of Selected Children. Dest .cmd/happiness-children \
 #3110. Score of a String. Dest .cmd/score-str \
-#1689. Partitioning Into Minimum Number Of Deci-Binary Numbers. Dest .cmd/deci-binary-nums-parts \
