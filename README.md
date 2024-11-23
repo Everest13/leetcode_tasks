@@ -71,6 +71,7 @@ This repo for solutions from leetcode tasks:
 #872. Leaf-Similar Trees. Dest .cmd/leaf-similar-trees \
 #931. Minimum Falling Path Sum. Dest .cmd/min-falling-path-sum \
 #938. Range Sum of BST. Dest .cmd/range-sum-bst \
+#1072. Flip Columns For Maximum Number of Equal Rows. Dest .cmd/flip-matrix-col \
 #1207. Unique Number of Occurrences. Desc .cmd/uniquen-num-occur \
 #1291. Sequential Digits. Dest .cmd/sequential-digits \
 #1347. Minimum Number of Steps to Make Two Strings Anagram. Dest .cmd/min-num-steps-make-2-str-anagram \
