@@ -100,6 +100,7 @@ This repo for solutions from leetcode tasks:
 #2554. Maximum Number of Integers to Choose From a Range I. Dest .cmd/move-pieces-obtain-str \
 #2610. Convert an Array Into a 2D Array With Conditions. Dest .cmd/convert-arr-into-2D \
 #2706. Buy Two Chocolates. Dest .cmd/buy-two-chocolates \
+v2779. Maximum Beauty of an Array After Applying Operation. Dest .cmd/max-beauty-array \
 #2807. Insert Greatest Common Divisors in Linked List. Dest .cmd/insert-divis-link-list \
 #2825. Make String a Subsequence Using Cyclic Increments. Dest .cmd/cyclic-inc-subseq \
 #2870. Minimum Number of Operations to Make Array Empty. Dest .cmd/min-num-operations-make-array-empty \
