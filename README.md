@@ -44,6 +44,7 @@ This repo for solutions from leetcode tasks:
 #91. Decode Ways. Desc .cmd/decode-ways \
 #94. Binary Tree Inorder Traversal. Dest .cmd/bin-tree-inord-travers \
 #100. Same Tree. Dest .cmd/same-tree \
+#112. Path Sum. Dest .cmd/path-sum \
 #121. Best Time to Buy and Sell Stock. Dest .cmd/best-time-buy-sell-stock \
 #122. Best Time to Buy and Sell Stock II. Dest .cmd/best-time-buy-sell-stock-2 \
 #133. Clone Graph. Dest .cmd/clone-graph \
