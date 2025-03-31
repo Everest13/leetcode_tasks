@@ -99,6 +99,7 @@ This repo for solutions from leetcode tasks:
 #2225. Find Players With Zero or One Losses. Desc .cmd/players-with-losses \
 #2385. Amount of Time for Binary Tree to Be Infected. Dest .cmd/amount-time-binary-tree-infected \
 #2516. Take K of Each Character From Left and Right. Dest .cmd/k-char-left-right \
+#2544. Alternating Digit Sum. Dest .cmd/alt-digit-sum \
 #2554. Maximum Number of Integers to Choose From a Range I. Dest .cmd/move-pieces-obtain-str \
 #2610. Convert an Array Into a 2D Array With Conditions. Dest .cmd/convert-arr-into-2D \
 #2706. Buy Two Chocolates. Dest .cmd/buy-two-chocolates \
