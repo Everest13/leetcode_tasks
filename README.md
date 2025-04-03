@@ -80,6 +80,7 @@ This repo for solutions from leetcode tasks:
 #1422. Maximum Score After Splitting a String. Dest .cmd/max-score-after-split-string \
 #1455. Check If a Word Occurs As a Prefix of Any Word in a Sentence. Dest .cmd/check-word-prefix \
 #1464. Maximum Product of Two Elements in an Array. Dest .cmd/max-of-2array-elts \
+#1476. Subrectangle Queries. Dest .cmd/subrectangle-queries \
 #1561. Maximum Number of Coins You Can Get. Dest .cmd/max-num-coins \
 #1624. Largest Substring Between Two Equal Characters. Dest .cmd/largest-substr-between \
 #1662. Check If Two String Arrays are Equivalent. Dest .cmd/is-two-str-eq \
