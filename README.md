@@ -100,6 +100,7 @@ This repo for solutions from leetcode tasks:
 #2125. Number of Laser Beams in a Bank. Dest .cmd/num-laser-beams-bank \
 #2225. Find Players With Zero or One Losses. Desc .cmd/players-with-losses \
 #2385. Amount of Time for Binary Tree to Be Infected. Dest .cmd/amount-time-binary-tree-infected \
+#2433. Find The Original Array of Prefix Xor. Dest .cmd/arr-prefix-xor \
 #2516. Take K of Each Character From Left and Right. Dest .cmd/k-char-left-right \
 #2544. Alternating Digit Sum. Dest .cmd/alt-digit-sum \
 #2554. Maximum Number of Integers to Choose From a Range I. Dest .cmd/move-pieces-obtain-str \
