@@ -114,4 +114,5 @@ v2779. Maximum Beauty of an Array After Applying Operation. Dest .cmd/max-beauty
 #2966. Divide Array Into Arrays With Max Difference. Dest .cmd/divide-array-into-arrs-max-diff \
 #3075. Maximize Happiness of Selected Children. Dest .cmd/happiness-children \
 #3110. Score of a String. Dest .cmd/score-str \
+#3271. Hash Divided String. Dest .cmd/hash-divided-str \
 #3324. Find the Sequence of Strings Appeared on the Screen. Dest .cmd/alisa-seq-appeared \
