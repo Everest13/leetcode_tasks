@@ -68,6 +68,7 @@ This repo for solutions from leetcode tasks:
 #706. Design HashMap. Dest .cmd/design-hashmap \
 #739. Daily Temperatures. Dest .cmd/daily-temperatures \
 #744. Find Smallest Letter Greater Than Target. Dest .cmd/small-letter-greater-target \
+#763. Partition Labels. Dest .cmd/partition-labels \
 #812. Largest Triangle Area. Dest .cmd/largest-triangle-area \
 #844. Backspace String Compare. Dest .cmd/backspace-str-compare \
 #872. Leaf-Similar Trees. Dest .cmd/leaf-similar-trees \
