@@ -91,6 +91,7 @@ This repo for solutions from leetcode tasks:
 #1750. Minimum Length of String After Deleting Similar Ends. Dest .cmd/min-l-str-after-del-similar-ends \
 #1751. Maximum Number of Events That Can Be Attended II. Dest .cmd/max-num-events-be-attended-2 \
 #1758. Minimum Changes To Make Alternating Binary String. Dest .cmd/min-operations \
+#1769. Minimum Number of Operations to Move All Balls to Each Box. Dest .cmd/balls-box \
 #1846. Maximum Element After Decreasing and Rearranging. Dest .cmd/max-el-after-decr-rear \
 #1897. Redistribute Characters to Make All Strings Equal. Dest .cmd/redistribute-chars \
 #1930. Unique Length-3 Palindromic Subsequences. Dest .cmd/palindrom-subseq-3 \
