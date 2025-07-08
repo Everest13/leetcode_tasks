@@ -100,6 +100,7 @@ This repo for solutions from leetcode tasks:
 #2011. Final Value of Variable After Performing Operations. Dest .cmd/val-perform-oper \
 #2058. Find the Minimum and Maximum Number of Nodes Between Critical Points. Dest .cmd/min-max-nodes-betw-crit-points \
 #2125. Number of Laser Beams in a Bank. Dest .cmd/num-laser-beams-bank \
+#2161. Partition Array According to Given Pivot. Dest .cmd/part-arr-pivot \
 #2225. Find Players With Zero or One Losses. Desc .cmd/players-with-losses \
 #2385. Amount of Time for Binary Tree to Be Infected. Dest .cmd/amount-time-binary-tree-infected \
 #2433. Find The Original Array of Prefix Xor. Dest .cmd/arr-prefix-xor \
