@@ -103,6 +103,7 @@ This repo for solutions from leetcode tasks:
 #2161. Partition Array According to Given Pivot. Dest .cmd/part-arr-pivot \
 #2225. Find Players With Zero or One Losses. Desc .cmd/players-with-losses \
 #2385. Amount of Time for Binary Tree to Be Infected. Dest .cmd/amount-time-binary-tree-infected \
+#2415. Reverse Odd Levels of Binary Tree. Dest .cmd/reverse-odd-tree \
 #2433. Find The Original Array of Prefix Xor. Dest .cmd/arr-prefix-xor \
 #2516. Take K of Each Character From Left and Right. Dest .cmd/k-char-left-right \
 #2544. Alternating Digit Sum. Dest .cmd/alt-digit-sum \
