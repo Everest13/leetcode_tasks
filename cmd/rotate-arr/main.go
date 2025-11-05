@@ -20,3 +20,23 @@ func rotate(nums []int, k int)  {
 	res = append(nums[l-k:], nums[0:l-k]...)
 	nums = append(nums[0:0], res...)
 }
+
+// classic approach
+func rotate2(nums []int, k int) {
+	lenNums := len(nums)
+	if k > lenNums {
+		k = k%lenNums
+	}
+
+	reverse(nums, 0, lenNums-1)
+	reverse(nums, 0, k-1)
+	reverse(nums, k, lenNums-1)
+}
+
+func reverse(nums []int, from, to int) {
+	for from < to {
+		nums[from], nums[to] = nums[to], nums[from]
+		from++
+		to--
+	}
+}
