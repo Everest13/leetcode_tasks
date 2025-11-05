@@ -18,7 +18,7 @@ This repo for solutions from leetcode tasks:
 #15: 3Sum. Dest .cmd/3-sum \
 #16. 3Sum Closest. Dest .cmd/3sum-closest \
 #17. Letter Combinations of a Phone Number. Dest .cmd/combinations-phone-number \
-#18. 18. 4Sum. Dest .cmd/4-sum \
+#18. 4Sum. Dest .cmd/4-sum \
 #19. Remove Nth Node From End of List. Dest .cmd/remove-node-end-list \
 #20. Valid Parentheses. Dest .cmd/valid-parentheses \
 #21. Merge Two Sorted Lists. Desc .cmd/merge-two-sorted-lists \
@@ -50,6 +50,7 @@ This repo for solutions from leetcode tasks:
 #122. Best Time to Buy and Sell Stock II. Dest .cmd/best-time-buy-sell-stock-2 \
 #133. Clone Graph. Dest .cmd/clone-graph \
 #135. Candy. Dest .cmd/candy \
+#136. Single Number. Dest .cmd/single-number \
 #139. Word Break. Dest .cmd/word-break \
 #143. Reorder List. Dest .cmd/reorder-list \
 #146. LRU Cache. Dest .cmd/url-cache \
@@ -58,6 +59,7 @@ This repo for solutions from leetcode tasks:
 #187. Repeated DNA Sequences. Dest .cmd/repeated-dna-sequences \
 #189. Rotate Array. Dest .cmd/rotate-arr \
 #229. Majority Element II. Dest .cmd/majority-element-2 \
+#283. Move Zeroes. Dest .cmd/move-zero \
 #287. Find the Duplicate Number. Dest .cmd/find-duplicate-num \
 #350. Intersection of Two Arrays II. Dest .cmd/intersec-two-arr-2 \
 #409. Longest Palindrome. Desc .cmd/longest-palindrome \
