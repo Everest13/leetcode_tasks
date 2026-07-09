@@ -2,6 +2,7 @@ This repo for solutions from leetcode tasks:
 
 #1. Two Sum. Dest .cmd/two-sum \
 #2. Task Add Two Numbers. Dest .cmd/add-two-numbers \
+#3. Longest Substring Without Repeating Characters. Dest .cmd/length-longest-substring \
 #4. Median of Two Sorted Arrays. Desc .cmd/median-sorted-arrs \
 #3. Longest Substring Without Repeating Characters. Dest .cmd/substr-without-repeat-chars \
 #5. Longest Palindromic Substring.  Dest .cmd/longest-palindromic-substr \
